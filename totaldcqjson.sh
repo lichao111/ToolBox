@@ -19,11 +19,7 @@ echo $(date)  "数据缓存总数据总量:     ${total_json}"
 sleep 5
 total_json=0
 _yyyymm=$(date +%Y%m)
-_day=`expr $(date +%d) - 1`
-if [ ${#_day} -eq 1 ]
-then
-	_day='0'${_day}
-fi
+_day=$(date -d"1 day ago" +"%Y%m%d")
 _date=${_yyyymm}${_day}'000000'
 echo "ret:mr" $(/program/codis/redis-cli -a GScjyw@8954 -h 10.212.246.70 -p 45001 hlen ret:313161:${_date})
 done
