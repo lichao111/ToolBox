@@ -1,6 +1,6 @@
 #!/bin/bash
 TerminalList=$1
-TerminalArry=(${TerminalList//,/ })
+TerminalArry=(${TerminalList//,/ }) #单斜杠替换一次 双斜杠替换所有
 for var in ${TerminalArry[@]}
 do
   a1=$(echo $var|cut -c1-4)
