@@ -1,7 +1,7 @@
 #!/bin/bash
 #该脚本实现对采集前置redis缓存中的二类数据进行统计，该脚本日期可以自动滚动
 #note: 由于redis操作速度比较快，且量比较大，该脚本的数据统计并不完全精确，但可以反应缓存中的数据量
-# I'm chao chao
+# my name is teng chao
 total_json=0
 json=0
 while :
