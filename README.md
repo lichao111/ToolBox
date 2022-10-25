@@ -14,6 +14,6 @@
 13. [定时监控某进程的端口占用及进程数等信息](https://github.com/lichao111/ToolBox/blob/master/static_jx.sh)
 14. [监控某进程的进程数等信息](https://github.com/lichao111/ToolBox/blob/master/static_qianzhi.sh)
 15. [通信进程的网络端口及进程情况检测](https://github.com/lichao111/ToolBox/blob/master/static_tx.sh)
-16. [python基本实现的telnet](https://github.com/lichao111/ToolBox/blob/master/telnet.py)
+16. [python脚本实现的telnet](https://github.com/lichao111/ToolBox/blob/master/telnet.py)
 17. [监控redis中的多个key信息-for循环](https://github.com/lichao111/ToolBox/blob/master/totaldcqjson.sh)
 18. [docerfile样例-安装python、ffmpeg、opencv及编译自己的代码等](https://github.com/lichao111/ToolBox/blob/master/Dockerfile)
