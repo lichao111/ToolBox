@@ -17,3 +17,4 @@
 16. [python脚本实现的telnet](https://github.com/lichao111/ToolBox/blob/master/telnet.py)
 17. [监控redis中的多个key信息-for循环](https://github.com/lichao111/ToolBox/blob/master/totaldcqjson.sh)
 18. [docerfile样例-安装python、ffmpeg、opencv及编译自己的代码等](https://github.com/lichao111/ToolBox/blob/master/Dockerfile)
+19. [oh-my-zsh安装](https://github.com/lichao111/ToolBox/blob/master/insall_zsh.sh)
