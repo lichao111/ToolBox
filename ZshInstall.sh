@@ -9,7 +9,7 @@ fi
 
 # 安装 Zsh
 $SUDO apt-get update
-$SUDO apt-get install -y zsh
+$SUDO apt-get install -y zsh curl
 
 # 安装 Oh My Zsh (使用 --unattended 参数避免交互)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
